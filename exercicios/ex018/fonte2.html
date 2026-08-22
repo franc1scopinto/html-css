@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:"Love" ;
+            src: url("fonts/Romance.otf") format("opentype");
+        
+            /*Tipos de Format()
+            opentype (otf)
+            truetype (ttf)
+            embedded-opentype
+            truetype-aat(Apple Advanced Typography)
+            svg
+            */
+        }
+
+        @font-face {
+            font-family: "outro";
+            src: url(fonts/TarmilesAction_PERSONAL_USE_ONLY.otf) format("opentype");
+        }
+        body{
+            font-family: "outro";
+        }
+        h1{
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae praesentium, sint quia consectetur facere optio odit temporibus cum qui tenetur distinctio, obcaecati officia consequuntur ullam ad quae quasi illo molestias.</p>
+</body>
+</html>

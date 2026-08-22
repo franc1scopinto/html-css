@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+/*
+    id==#(Só pode um)
+    class==.(Pode ter um conjunto)
+*/
+body{
+    background-color: #1C384F;
+}
+
+h1{
+    color: #82BAE8;
+}
+
+h1#principal{
+    color: #ffffff;
+    text-align: center;
+    background-color: #155081;
+
+}
+
+h2{
+    color: rgb(176, 203, 229);
+}
+
+.basico{
+    background-color: #15826D;
+    display: inline;
+}
+
+.intermediario{
+    color: black;
+    background-color: #ffd6a8;
+    display: inline ;
+}
+
+
+.avancado{
+    background-color: #821515;
+}
+
+
+.destaque{
+    background-image: linear-gradient(to left ,#155081, #826415, #824515);
+}

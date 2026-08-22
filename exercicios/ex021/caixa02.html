@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(90, 87, 87);
+            margin: 0;
+        }
+
+        header{
+            background-color: rgb(130, 129, 128);
+            padding: 10px;
+            margin:10px ;
+        }
+        nav{
+            background-color: lightgrey;
+            padding: 10px;
+            box-shadow:1px 4px 4px rgba(0, 0, 0, 0.678);
+        }
+         main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 2px 30px 30px 30px;
+            box-shadow:3px 5px 4px rgba(0, 0, 0, 0.45);
+
+         }
+
+        nav>a{
+            text-decoration: none;
+            color: burlywood;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        nav>a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+
+         article{
+            background-color: rgb(66, 70, 66);
+            padding: 5px;
+         }
+         article>aside{
+            background-color: rgb(71, 78, 73);
+            text-align: center;
+         }
+
+         footer{
+            background-image: linear-gradient(to bottom, #43effF, #399b34);
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+         }
+         footer>p{
+            margin: 0px;
+         }
+
+         #bola{
+            height: 100px;
+            width: 100px;
+            background-color: white; 
+            margin: 10px;
+            border-radius: 50%;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>    
+
+    <main>
+        <section id="assunto">
+            <p>Esportes, Politica, Programação</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                
+                    <h2>Notícias sobre o Brazil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores hic distinctio ipsum sint tenetur earum pariatur explicabo saepe error cum unde numquam voluptates exercitationem doloribus consectetur veritatis, facilis fugiat adipisci. 
+                    </p>
+
+                    <aside>
+                        <p>artigo escrito por José da Silva</p>
+                    </aside>
+
+                
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo Francisco Pinto</p>
+    </footer>
+
+    <div id="bola">
+
+    </div>
+</body>
+</html>
