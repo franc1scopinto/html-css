@@ -8,10 +8,36 @@
 <body>
     <h1>Teste de forms</h1>
 
-    <form action="" method="get">
+    <form action="" method="get" autocomplete="on">
 
-        <label for="i_nome">Nome:</label>
-        <input type="text" name="" id="i_nome" maxlength="30" placeholder="nome completo">
+        <p>
+            <label for="i_nome">Nome:</label>
+            <input type="text" name="" id="i_nome" maxlength="30" placeholder="nome completo" autocomplete="name" required>
+        </p>
+
+        <p>
+            <label for="i_mes">mês:</label>
+            <input type="month" name="" id="i_mês" value="2027-07">
+        </p>
+
+        <p>
+            <label for="i_idade">Idade:</label>
+            <input type="number" name="" id="i_idade" placeholder="idade" step="1" required min="18" value="18">
+        </p>
+
+
+        <p>
+            <label for="i_data">data:</label>
+            <input type="date" name="" id="i_data">
+        </p>
+
+
+
+        <input type="submit" value="Enviar">
+
+        <input type="reset" value="limpar">
+
+
 
 
 
