@@ -10,12 +10,20 @@
     <h1>Meu Primeiro Formulário</h1>
 
 
-    <form action="">
+    <form action="cadastro.php" autocomplete="off">
 
-        <p>nome: <input type="text"></p>
-        <p>Sobrenome: <input type="text"></p>
+        <p>
+            <label for="inome">nome:</label>
+                <input type="text" name="nome" id="inome">
+        </p>
+
+        <p>
+            <label for="isobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome">
+        </p>
 
         <input type="submit" value="Enviar">
+
     </form>
 
 
